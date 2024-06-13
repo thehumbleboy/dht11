@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -g -nostartfiles -Map=tim2_ex.map -O0 --gc-sections -LD:\CooCox\CoIDE\configuration\ProgramData\tim2_ex -TD:\CooCox\CoIDE\configuration\ProgramData\tim2_ex/link.ld -g">
+      <target file="tim2_ex.elf" lastModified="19010a40d5a">
+         <source file="..\obj\stm32f4xx_usart.o" lastModified="190100cedf9"/>
+         <source file="..\obj\startup_stm32f4xx.o" lastModified="190100cee39"/>
+         <source file="..\obj\main.o" lastModified="190108f911f"/>
+         <source file="..\obj\stm32f4xx_rcc.o" lastModified="190100ceee4"/>
+         <source file="..\obj\stm32f4xx_gpio.o" lastModified="190100cef3f"/>
+         <source file="..\obj\system_stm32f4xx.o" lastModified="190100da5d0"/>
+         <source file="..\obj\clockconfig.o" lastModified="19010a40ade"/>
+         <source file="..\obj\stm32f4xx_tim.o" lastModified="190100cf095"/>
+         <source file="..\obj\micros.o" lastModified="190100cf0c0"/>
+      </target>
+   </processor>
+</history>

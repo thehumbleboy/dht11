@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc 12.2.0 x86_64-w64-mingw32 -mcpu=cortex-m4 -mthumb -Wall -ffunction-sections -g -O0 -c -DSTM32F401CC -DSTM32F4XX -DUSE_STDPERIPH_DRIVER -D__ASSEMBLY__ -I..\..\..\workspace\tim2_ex\cmsis -I..\..\..\workspace\tim2_ex\cmsis_lib\include -I..\..\.. -I..\..\..\workspace\tim2_ex -I..\..\..\workspace\tim2_ex\cmsis_lib -I..\..\..\workspace -I..\..\..\workspace\tim2_ex\cmsis_boot">
+      <target file="stm32f4xx_gpio.o" lastModified="190100cef3f">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_gpio.c" lastModified="1900d3027b5"/>
+      </target>
+      <target file="micros.o" lastModified="190100cf0c0">
+         <source file="..\..\..\micros.c" lastModified="1900d927b4c"/>
+      </target>
+      <target file="stm32f4xx_tim.o" lastModified="190100cf095">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_tim.c" lastModified="1900d303ae2"/>
+      </target>
+      <target file="system_stm32f4xx.o" lastModified="190100da5d0">
+         <source file="..\..\..\cmsis_boot\system_stm32f4xx.c" lastModified="190100d8ddc"/>
+      </target>
+      <target file="startup_stm32f4xx.o" lastModified="190100cee39">
+         <source file="..\..\..\cmsis_boot\startup\startup_stm32f4xx.c" lastModified="1900d300901"/>
+      </target>
+      <target file="stm32f4xx_usart.o" lastModified="190100cedf9">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_usart.c" lastModified="1900d305080"/>
+      </target>
+      <target file="main.o" lastModified="190108f911f">
+         <source file="..\..\..\main.c" lastModified="190100cc567"/>
+      </target>
+      <target file="clockconfig.o" lastModified="19010a40ade">
+         <source file="..\..\..\clockconfig.c" lastModified="19010a3fdee"/>
+      </target>
+      <target file="stm32f4xx_rcc.o" lastModified="190100ceee4">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_rcc.c" lastModified="1900d30170d"/>
+      </target>
+   </processor>
+</history>
